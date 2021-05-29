@@ -1,0 +1,61 @@
+.redbutton {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: red;
+  left: 50%;
+  top: 300%;
+  position: relative;
+}
+
+.count {
+  height: 50px;
+  width: 40px;
+  left: 30px;
+  top: 62px;
+  background-color: grey;
+  border-radius: 30%;
+  position: fixed;
+}
+
+.increment-up {
+  height: 45px;
+  width: 40px;
+  left: 30px;
+  top: 10px;
+  background-color: grey;
+  border-radius: 30%;
+  position: fixed;
+}
+
+.increment-down {
+  height: 45px;
+  width: 40px;
+  left: 30px;
+  top: 120px;
+  background-color: grey;
+  border-radius: 30%;
+  position: fixed;
+}
+
+.triangle-up {
+  position: relative;
+  top: 10px;
+  left: 10px;
+  width: 0px;
+  height: 0px;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 20px solid blue;
+}
+
+.triangle-down {
+  position: relative;
+  top: 15px;
+  left: 10px;
+  width: 0px;
+  height: 0px;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 20px solid blue;
+}
