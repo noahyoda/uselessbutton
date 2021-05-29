@@ -1,7 +1,9 @@
 import './Button.css';
 
 const ButtonActual = () => {
-    const buttonCount = () => {}
+    const buttonCount = () => {
+        return 1;
+    }
 
     const mainButtonHandler = () => {
         console.log("bruh moment");
@@ -10,7 +12,7 @@ const ButtonActual = () => {
     return(
         <div>
             <div className="redbutton" onClick={mainButtonHandler}/>
-            <div className="count">{buttonCount}</div>
+            <div className="count">{buttonCount()}</div>
             <div className="increment-up">
                 <div className="triangle-up"></div>
             </div>
